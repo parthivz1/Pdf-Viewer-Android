@@ -26,5 +26,6 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.vertical_viewer_btn).setOnClickListener(view -> startActivity(new Intent(MainActivity.this, VerticalViewerActivity.class)));
 
         findViewById(R.id.horizontal_viewer_btn).setOnClickListener(view -> startActivity(new Intent(MainActivity.this, HorizontalViewerActivity.class)));
+        System.out.println("");
     }
 }
